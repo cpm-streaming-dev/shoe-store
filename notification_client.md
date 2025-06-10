@@ -15,13 +15,9 @@ All events are stored now in topic `shoe_promotions`.
 Prepare your Python
 ```bash
 python --version
-# Python 3.9.6
+# Python 3.10.7
 # Install moduls
-pip install confluent-kafka
-pip install http.client
-pip install urllib3
-pip install argparse
-pip install jproperties
+pip install -r requirements.txt
 ```
 
 If you do not want to use Pushover, then use [Telegram](https://github.com/ora0600/apache-kafka-as-a-service-by-confluent/tree/master/webinar1). In my github repositories I do have some samples around Telegram. A fresh Signup to Pushover will get free access for a week or so.
@@ -63,7 +59,7 @@ max_message=10
 ## Python Notifcation Service
 start notification service and check what is happening on your iPhone
 ```bash
-python push2ios.py f- client.properties t- shoe_promotions
+python push2ios.py -f client.properties -t shoe_promotions
 ...
 ```
 

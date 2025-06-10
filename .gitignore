@@ -1,4 +1,5 @@
 bin/
 hashicorp.gpg
 *.tfstate
-client.properties
+venv
+__pycache__
