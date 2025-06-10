@@ -1,0 +1,706 @@
+<mxfile host="65bd71144e" pages="2">
+    <diagram name="lab1" id="0">
+        <mxGraphModel dx="2850" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="940" width="910" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="1339.5" width="910" height="460.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-63" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-51" target="W1y0I4I2zHLJ1xKDQi8m-60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-51" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1461" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-61" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-52" target="W1y0I4I2zHLJ1xKDQi8m-58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-52" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1548.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-53" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1371" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-54" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1507" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-55" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1597" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-56" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1421" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-57" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;2 Aggregations&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="1330" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-58" target="W1y0I4I2zHLJ1xKDQi8m-59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-58" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-58" value="SELECT COUNT(id) AS num_customers FROM shoe_customers;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="1537" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-59" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-59" value="SELECT COUNT(DISTINCT id) AS num_customers FROM shoe_customers;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="1537" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-60" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-60" value="&lt;div&gt;SELECT brand as brand_name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; COUNT(DISTINCT name),...&lt;/div&gt;&lt;div&gt;FROM shoe_products&lt;/div&gt;&lt;div&gt;GROUP BY brand;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="1449.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="940" width="1520" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-65" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1235" y="1062.25" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-66" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1235" y="1149.75" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-74" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-67" target="W1y0I4I2zHLJ1xKDQi8m-72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-67" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1235" y="972.25" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-68" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="1108.25" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-69" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1235" y="1197.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-70" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="1022.25" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-71" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;3 Time Windows&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2137.5" y="930.5" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-75" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-72" target="W1y0I4I2zHLJ1xKDQi8m-73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-72" target="ppsGNRdjM7QvQxgj99Wp-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-72" value="TUMBLE window: 1 min" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1365" y="961.25" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-73" target="ppsGNRdjM7QvQxgj99Wp-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-73" value="HOP window: 10 min / 5 min" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1610" y="961.25" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="1470" width="1535" height="590.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-98" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-77" target="W1y0I4I2zHLJ1xKDQi8m-88" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-77" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1557.5" y="1681.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-91" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-78" target="W1y0I4I2zHLJ1xKDQi8m-85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-78" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1557.5" y="1769" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-79" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="1557.5" y="1591.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-80" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-80" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1552.5" y="1727.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-81" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-81" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1552.5" y="1817.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-82" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-82" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1552.5" y="1641.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-83" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;4 Tables with Primary Key&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2365" y="1471.5" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-94" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-84" target="W1y0I4I2zHLJ1xKDQi8m-86" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-84" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-84" value="&lt;div&gt;SHOW CREATE TABLE shoe_customers_keyed;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1902.5" y="1760.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-92" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-85" target="W1y0I4I2zHLJ1xKDQi8m-84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-85" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-85" value="&lt;div&gt;CREATE TABLE shoe_customers_keyed&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1682.5" y="1760.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-86" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-86" value="&lt;div&gt;INSERT INTO&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; SELECT id, first_name, last_name, email&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; FROM shoe_customers;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="2122.5" y="1760.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-87">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1975" y="1960.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-87" value="&lt;div&gt;SELECT *&lt;/div&gt;&lt;div&gt;where customer_id = &#39;xx&#39;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="2342.5" y="1760.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-96" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-88" target="W1y0I4I2zHLJ1xKDQi8m-89" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-88" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-88" value="&lt;div&gt;CREATE TABLE shoe_products_keyed&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1682.5" y="1671.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-89" value="&lt;div&gt;&lt;div&gt;INSERT INTO&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; SELECT id, brand, `name`, sale_price, rating&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; FROM shoe_products;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="1902.5" y="1671.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="7" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-90" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-90" value="&lt;div&gt;SELECT *&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="2122.5" y="1671.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="ppsGNRdjM7QvQxgj99Wp-1" target="ppsGNRdjM7QvQxgj99Wp-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ppsGNRdjM7QvQxgj99Wp-1" value="fixed window 1 นาที&lt;div&gt;####&lt;/div&gt;&lt;div&gt;window_start 00&lt;/div&gt;&lt;div&gt;window_end 01&lt;/div&gt;&lt;div&gt;####&lt;/div&gt;&lt;div&gt;ระบุช่วงเวลา / group by&lt;/div&gt;&lt;div&gt;*ไม่ซ้อน*&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1395" y="1094.75" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ppsGNRdjM7QvQxgj99Wp-2" value="SELECT&#xa;  window_start,&#xa; window_end,&#xa;  `$rowtime`,&#xa; COUNT(DISTINCT order_id) AS num_orders&#xa;FROM TABLE(&#xa;   TUMBLE(TABLE shoe_orders, DESCRIPTOR(`$rowtime`), INTERVAL &#39;1&#39; MINUTES))&#xa;GROUP BY window_start, window_end, `$rowtime`;&#xa;&#xa;window_start / $rowtime / window_end&#xa;**remark $rowtime คือ event time ที่ Flink ใช้จัดการ window และเวลาใน stream" style="text;whiteSpace=wrap;labelBorderColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1395" y="1240" width="470" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="ppsGNRdjM7QvQxgj99Wp-3" target="ppsGNRdjM7QvQxgj99Wp-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ppsGNRdjM7QvQxgj99Wp-3" value="hop / siding&amp;nbsp;&lt;div&gt;hop size 5 นาที window 10 นาที&lt;div&gt;####&lt;/div&gt;&lt;div&gt;window_start&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;window_end&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;13:00&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&amp;nbsp;13:10 ||&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;13:06&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;13:05 13:15 ||&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;13:06&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;13:10 13:20&lt;/span&gt;&lt;/div&gt;&lt;div&gt;####&lt;/div&gt;&lt;div&gt;$rowtime = 13:06&lt;/div&gt;&lt;div&gt;*ซ้อนกัน*&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1612.5" y="1084.25" width="175" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ppsGNRdjM7QvQxgj99Wp-4" value="SELECT&#xa; window_start, window_end,&#xa; COUNT(DISTINCT order_id) AS num_orders&#xa;FROM TABLE(&#xa;   HOP(TABLE shoe_orders, DESCRIPTOR(`$rowtime`), INTERVAL &#39;5&#39; MINUTES, INTERVAL &#39;10&#39; MINUTES))&#xa;GROUP BY window_start, window_end;&#xa;&#xa;นับจำนวน order_id ที่ไม่ซ้ำกัน ภายในแต่ละช่วงเวลา 10 นาที ที่เลื่อนไปทุก 5 นาที" style="text;whiteSpace=wrap;labelBorderColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1880" y="1077.5" width="560" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="COUNT(DISTINCT name)&amp;nbsp;&lt;b&gt;เลือก model ที่ไม่ซ้ำกัน&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ROUND(AVG(rating), 2)&amp;nbsp;&lt;/span&gt;&lt;b&gt;ค่าเฉลี่ยของ rating ปัดทศนิยม 2 ตำแหน่ง&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;MAX(sale_price)/100&amp;nbsp;&lt;/span&gt;&lt;b&gt;ราคาสูงสุดของรองเท้าแต่ละ brand / 100 เอาทศนิยมออก&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1444.5" width="325" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="นับ id ทั้งหมด (มีซ้ำ)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="455" y="1621" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="นับ id ทั้งหมดที่ไม่ซ้ำ&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="1620" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="CREATE TABLE shoe_products_keyed(&#xa;  product_id STRING,&#xa;  brand STRING,&#xa;  `model` STRING,&#xa;  sale_price INT,&#xa;  rating DOUBLE,&#xa;  PRIMARY KEY (product_id) NOT ENFORCED&#xa;  );" style="text;whiteSpace=wrap;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1682.5" y="1496.5" width="290" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;entryX=0.778;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-89" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="CREATE TABLE shoe_customers_keyed(&#xa;  customer_id STRING,&#xa;  first_name STRING,&#xa;  last_name STRING,&#xa;  email STRING,&#xa;  PRIMARY KEY (customer_id) NOT ENFORCED&#xa;  );" style="text;whiteSpace=wrap;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1675" y="1895.5" width="290" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;div&gt;&lt;b&gt;changelog.mode = &#39;upsert&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;เพราะมี key&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1907.5" y="1847.5" width="170" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="&lt;div&gt;&lt;b&gt;changelog.mode = &#39;append&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(default)&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1330" y="1727.5" width="170" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="964" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1059.75" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1197.5" width="325" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1061.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-25" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-6" target="W1y0I4I2zHLJ1xKDQi8m-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1149" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-27" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-7" target="W1y0I4I2zHLJ1xKDQi8m-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-7" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="971.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-8" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1107.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-9" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1197.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-10" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="1021.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-11" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-11" value="SELECT * FROM shoe_products" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;container=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="1050" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-26" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-12" target="W1y0I4I2zHLJ1xKDQi8m-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-12" value="DESCRIBE shoe_customers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1137.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-13" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-13" value="SELECT * FROM shoe_customers WHERE state=&#39;Texas&#39; AND last_name LIKE &#39;B%&#39;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="1137.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-28" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-14" target="W1y0I4I2zHLJ1xKDQi8m-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-14" value="DESCRIBE EXTENDED shoe_orders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="960" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-15" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-15" value="SELECT ... FROM shoe_orders WHERE customer_id=..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="960.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-17" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;1 Select Queries&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="930.5" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-21" value="DESCRIBE shoe_products" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1050" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-20" value="1" style="endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W1y0I4I2zHLJ1xKDQi8m-5" target="W1y0I4I2zHLJ1xKDQi8m-21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="424" y="836" as="sourcePoint"/>
+                        <mxPoint x="424" y="876" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="W1y0I4I2zHLJ1xKDQi8m-23" value="2" style="endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="W1y0I4I2zHLJ1xKDQi8m-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="1080.5" as="sourcePoint"/>
+                        <mxPoint x="675" y="1082.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="filter" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="971.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="เลือกทั้งหมด" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="1061.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="filter state, last_name" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="1146" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1364" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1459.75" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1597.5" width="325" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="961.25" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="1057" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="1194.75" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="1559" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="1654.75" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="1792.5" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5ZJqmnRXjNLmk7BZ6dzV" name="lab2">
+        <mxGraphModel dx="2923" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="689.5" width="850" height="380.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-10" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-595" y="811" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-2" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XIWTMz5Jl4-uESs2gRyL-11" target="FYEY2F3lqp9zsOqkp7zN-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-595" y="898.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-4" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XIWTMz5Jl4-uESs2gRyL-12" target="FYEY2F3lqp9zsOqkp7zN-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-12" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-595" y="721" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-13" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-600" y="857" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-14" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-600" y="947" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-15" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-600" y="771" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XIWTMz5Jl4-uESs2gRyL-16" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;1 Timestamps (ROWTIME)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="680" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-1" value="&lt;div&gt;SELECT id,$rowtime&amp;nbsp;&lt;/div&gt;&lt;div&gt;FROM shoe_customers&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE id = &#39;xx&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-490" y="887" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-3" value="&lt;div&gt;SELECT order_id, customer_id, $rowtime&lt;/div&gt;&lt;div&gt;FROM shoe_orders&lt;/div&gt;&lt;div&gt;WHERE customer_id = &#39;xx&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-490" y="709.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="1100" width="1920" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-585" y="1221.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-15" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FYEY2F3lqp9zsOqkp7zN-7" target="FYEY2F3lqp9zsOqkp7zN-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NC0ky10QCNIaIwJawehR-5" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FYEY2F3lqp9zsOqkp7zN-7" target="NC0ky10QCNIaIwJawehR-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="20" y="1327.5"/>
+                            <mxPoint x="20" y="1234.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-7" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-585" y="1309" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-14" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FYEY2F3lqp9zsOqkp7zN-8" target="FYEY2F3lqp9zsOqkp7zN-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NC0ky10QCNIaIwJawehR-3" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FYEY2F3lqp9zsOqkp7zN-8" target="NC0ky10QCNIaIwJawehR-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="20" y="1150.5"/>
+                            <mxPoint x="20" y="1234.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-3" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FYEY2F3lqp9zsOqkp7zN-8" target="NC0ky10QCNIaIwJawehR-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="1150.5"/>
+                            <mxPoint x="500" y="1234.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-8" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-585" y="1131.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-9" value="shoe_products&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-590" y="1267.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;verticalAlign=middle;horizontal=1;" edge="1" parent="1" source="FYEY2F3lqp9zsOqkp7zN-10" target="ooTucOMeOeSmKYjI03cO-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-10" value="shoe_customers&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-590" y="1357.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-11" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-590" y="1181.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-12" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;2 JOIN&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="1100" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="FYEY2F3lqp9zsOqkp7zN-13" value="&lt;div&gt;SELECT /*+ STATE_TTL(&#39;shoe_orders&#39;=&#39;6h&#39;, &#39;shoe_customers&#39;=&#39;2d&#39;) */&amp;nbsp;&lt;/div&gt;&lt;div&gt;order_id, shoe_orders.`$rowtime`, first_name, last_name&lt;/div&gt;&lt;div&gt;FROM shoe_orders&lt;/div&gt;&lt;div&gt;INNER JOIN shoe_customers&amp;nbsp;&lt;/div&gt;&lt;div&gt;ON shoe_orders.customer_id = shoe_customers.id&lt;/div&gt;&lt;div&gt;WHERE customer_id = &#39;xx&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-440" y="1165.5" width="425" height="149" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://docs.confluent.io/cloud/current/flink/reference/statements/hints.html" link="https://docs.confluent.io/cloud/current/flink/reference/statements/hints.html" id="FYEY2F3lqp9zsOqkp7zN-16">
+                    <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                        <mxGeometry x="-280" y="1120.5" width="60" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="NC0ky10QCNIaIwJawehR-1" value="&#xa;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;duplicates&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="1340.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NC0ky10QCNIaIwJawehR-2" value="&lt;div&gt;SELECT order_id, shoe_orders.`$rowtime` AS order_time, shoe_customers.`$rowtime` AS customer_record_time, email&lt;/div&gt;&lt;div&gt;FROM shoe_orders&lt;/div&gt;&lt;div&gt;INNER JOIN shoe_customers&lt;/div&gt;&lt;div&gt;ON shoe_orders.customer_id = shoe_customers.id&lt;/div&gt;&lt;div&gt;WHERE customer_id = &#39;xx&#39; AND&lt;/div&gt;&lt;div&gt;&amp;nbsp; shoe_orders.`$rowtime` BETWEEN shoe_customers.`$rowtime` - INTERVAL &#39;10&#39; MINUTES AND shoe_customers.`$rowtime`;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1160" width="425" height="149" as="geometry"/>
+                </mxCell>
+                <mxCell id="NC0ky10QCNIaIwJawehR-7" value="&lt;div&gt;SELECT order_id, shoe_orders.`$rowtime`, first_name, last_name&lt;/div&gt;&lt;div&gt;FROM shoe_orders&lt;/div&gt;&lt;div&gt;INNER JOIN shoe_customers_keyed FOR SYSTEM_TIME AS OF shoe_orders.`$rowtime`&lt;/div&gt;&lt;div&gt;ON shoe_orders.customer_id = shoe_customers_keyed.customer_id&lt;/div&gt;&lt;div&gt;WHERE shoe_customers_keyed.customer_id = &#39;xx&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="1160" width="520" height="149" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-4" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-1" target="NC0ky10QCNIaIwJawehR-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="1509"/>
+                            <mxPoint x="500" y="1235"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-585" y="1490.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-2" value="shoe_customers_keyed&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-590" y="1540.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-5" value="orders temporal&amp;nbsp;&lt;div&gt;join customer at order created&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="1340.5" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="1700" width="1930" height="390.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-39" target="ooTucOMeOeSmKYjI03cO-47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-39" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-135" y="1740.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-42" value="shoe_orders&lt;div&gt;(txn)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="1790.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-43" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;3 Data Enrichment&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="1700" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-44" value="&lt;div&gt;CREATE TABLE shoe_order_customer_product(&lt;/div&gt;&lt;div&gt;&amp;nbsp; order_id INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; first_name STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; last_name STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; email STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; brand STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `model` STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sale_price INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; rating DOUBLE&lt;/div&gt;&lt;div&gt;)WITH (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;changelog.mode&#39; = &#39;retract&#39;&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-775" y="1770.5" width="470" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-47" target="ooTucOMeOeSmKYjI03cO-59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-47" value="&lt;div&gt;INSERT INTO shoe_order_customer_product(&lt;/div&gt;&lt;div&gt;&amp;nbsp; order_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; first_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; last_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; brand,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `model`,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sale_price,&lt;/div&gt;&lt;div&gt;&amp;nbsp; rating)&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; so.order_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sc.first_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sc.last_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sc.email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sp.brand,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sp.`model`,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sp.sale_price,&lt;/div&gt;&lt;div&gt;&amp;nbsp; sp.rating&lt;/div&gt;&lt;div&gt;FROM&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; shoe_orders so&lt;/div&gt;&lt;div&gt;&amp;nbsp; INNER JOIN shoe_customers_keyed sc&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ON so.customer_id = sc.customer_id&lt;/div&gt;&lt;div&gt;&amp;nbsp; INNER JOIN shoe_products_keyed sp&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ON so.product_id = sp.product_id;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="1710" width="480" height="370.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-51" target="ooTucOMeOeSmKYjI03cO-47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-51" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-135" y="1840.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-52" value="shoe_customers_keyed&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="1890.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-54" target="ooTucOMeOeSmKYjI03cO-47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-54" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-135" y="1950.5" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-55" value="shoe_products_keyed&lt;div&gt;(mst)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="2000.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-59" value="SELECT * FROM shoe_order_customer_product;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="1865.25" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="2170" width="2010" height="390.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-63" target="ooTucOMeOeSmKYjI03cO-66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-63" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-717.5" y="2320" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-64" value="shoe_order_customer_product" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-722.5" y="2370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-65" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;4 Loyalty Levels Calculation&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="2180" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-66" value="&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; SUM(sale_price) AS total,&lt;/div&gt;&lt;div&gt;&amp;nbsp; CASE&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 800000 THEN &#39;GOLD&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 70000 THEN &#39;SILVER&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 6000 THEN &#39;BRONZE&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ELSE &#39;CLIMBING&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; END AS rewards_level&lt;/div&gt;&lt;div&gt;FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;GROUP BY email;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-547.5" y="2226" width="470" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ooTucOMeOeSmKYjI03cO-76" target="ooTucOMeOeSmKYjI03cO-77" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-76" value="&lt;div&gt;CREATE TABLE shoe_loyalty_levels(&lt;/div&gt;&lt;div&gt;&amp;nbsp; email STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; total BIGINT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; rewards_level STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (email) NOT ENFORCED&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-12.5" y="2226" width="470" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ooTucOMeOeSmKYjI03cO-77" target="ooTucOMeOeSmKYjI03cO-80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-77" value="&lt;div&gt;INSERT INTO shoe_loyalty_levels(&lt;/div&gt;&lt;div&gt;&amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&amp;nbsp;total,&lt;/div&gt;&lt;div&gt;&amp;nbsp;rewards_level)&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; SUM(sale_price) AS total,&lt;/div&gt;&lt;div&gt;&amp;nbsp; CASE&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 80000000 THEN &#39;GOLD&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 7000000 THEN &#39;SILVER&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WHEN SUM(sale_price) &amp;gt; 600000 THEN &#39;BRONZE&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ELSE &#39;CLIMBING&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; END AS rewards_level&lt;/div&gt;&lt;div&gt;FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;GROUP BY email;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="512.5" y="2198.25" width="363.4" height="280.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="ooTucOMeOeSmKYjI03cO-80" value="SELECT * FROM shoe_loyalty_levels;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="922.5" y="2308.5" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="2610" width="2010" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kIeIxUJjNZK8YsG05vUq-3" target="kIeIxUJjNZK8YsG05vUq-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kIeIxUJjNZK8YsG05vUq-3" target="kIeIxUJjNZK8YsG05vUq-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-712.5" y="2760" width="50" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-4" value="shoe_order_customer_product" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-717.5" y="2810" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-5" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-size: 1.25em; line-height: 1.25; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;5 Promotions Calculation&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="2630.25" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-6" value="&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;COUNT(*) AS total,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;(COUNT(*) % 10) AS sequence,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;(COUNT(*) % 10) = 0 AS next_one_free&lt;/div&gt;&lt;div&gt;&amp;nbsp;FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;&amp;nbsp;WHERE brand = &#39;Jones-Stokes&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp;GROUP BY email;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-515" y="2666" width="470" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-8" value="&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;COLLECT(brand) AS products,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;bundle_offer&#39; AS promotion_name&lt;/div&gt;&lt;div&gt;&amp;nbsp; FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;&amp;nbsp; WHERE brand IN (&#39;Braun-Bruen&#39;, &#39;Will Inc&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; GROUP BY email&lt;/div&gt;&lt;div&gt;&amp;nbsp; HAVING COUNT(DISTINCT brand) = 2 AND COUNT(brand) &amp;gt; 10;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="-515" y="2940" width="470" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kIeIxUJjNZK8YsG05vUq-11" target="kIeIxUJjNZK8YsG05vUq-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-11" value="&lt;div&gt;CREATE TABLE shoe_promotions(&lt;/div&gt;&lt;div&gt;&amp;nbsp; email STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; promotion_name STRING,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (email) NOT ENFORCED&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="2749.5" width="200" height="111.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kIeIxUJjNZK8YsG05vUq-14" target="kIeIxUJjNZK8YsG05vUq-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-14" value="&lt;div&gt;EXECUTE STATEMENT SET&amp;nbsp;&lt;/div&gt;&lt;div&gt;BEGIN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;INSERT INTO shoe_promotions&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&#39;next_free&#39; AS promotion_name&lt;/div&gt;&lt;div&gt;FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;WHERE brand = &#39;Jones-Stokes&#39;&lt;/div&gt;&lt;div&gt;GROUP BY email&lt;/div&gt;&lt;div&gt;HAVING COUNT(*) % 10 = 0;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;INSERT INTO shoe_promotions&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;bundle_offer&#39; AS promotion_name&lt;/div&gt;&lt;div&gt;&amp;nbsp; FROM shoe_order_customer_product&lt;/div&gt;&lt;div&gt;&amp;nbsp; WHERE brand IN (&#39;Braun-Bruen&#39;, &#39;Will Inc&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; GROUP BY email&lt;/div&gt;&lt;div&gt;&amp;nbsp; HAVING COUNT(DISTINCT brand) = 2 AND COUNT(brand) &amp;gt; 10;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;END;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="2630.25" width="420" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIeIxUJjNZK8YsG05vUq-15" value="SELECT * from shoe_promotions;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" parent="1" vertex="1">
+                    <mxGeometry x="835" y="2775.25" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ไม่มีข้อมูลซ้ำเพราะ join ด้วย customers_keyed table&lt;/span&gt;&lt;/div&gt;**Remark&amp;nbsp;&lt;div&gt;customer.keyed ที่จอยกันต้องมีก่อน order created data&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="1440" width="230" height="69.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-2" value="SELECT order_id, shoe_orders.`$rowtime`, shoe_customers_keyed.`$rowtime` as customer_rowt, first_name, last_name&#xa;FROM shoe_orders&#xa;INNER JOIN shoe_customers_keyed FOR SYSTEM_TIME AS OF shoe_orders.`$rowtime`&#xa;ON shoe_orders.customer_id = shoe_customers_keyed.customer_id&#xa;WHERE shoe_customers_keyed.customer_id = &#39;b523f7f3-0338-4f1f-a951-a387beeb8b6a&#39;;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="1239" width="560" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-3" value="--- check free next one&#xa;SELECT&#xa;   email,&#xa;   COUNT(*) AS total,&#xa;   (COUNT(*) % 10) AS sequence,&#xa;   (COUNT(*) % 10) = 0 AS next_one_free&#xa; FROM shoe_order_customer_product&#xa; GROUP BY email&#xa;  HAVING (COUNT(*) % 10) = 0;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-442.5" y="3200" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-4" value="โปรซื้อครบ 10 คู่ คู่ต่อไปฟรี" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-380" y="2635.25" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-5" value="โปรซื้อแบรนด์ร่วมกันเกิน 10 ชิ้น&#xa;ลูกค้าต้องซื้อ ครบทั้งสองแบรนด์ (Braun-Bruen และ Will Inc)" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-380" y="2940" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="hbKVxBWnDmXBtwvc3sIN-6" value="1 ซื้อแบรนด์ &quot;Jones-Stokes&quot; ครบทุก 10 คู่&#xa;ได้โปร next_free&#xa;2 ลูกค้าที่ซื้อครบ ทั้ง 2 แบรนด์ และ มากกว่า 10 คู่รวมกัน ได้โปร bundle_offer &#xa;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="3010" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://docs.confluent.io/cloud/current/flink/reference/sql-examples.html#configure-debezium-format-for-cdc-data" link="https://docs.confluent.io/cloud/current/flink/reference/sql-examples.html#configure-debezium-format-for-cdc-data" id="swaZnutdx5JMuBxbLEJ9-3">
+                    <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
+                        <mxGeometry x="-760" y="2030.5" width="560" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-7" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="707.5" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-8" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="803.25" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-9" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="941" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-10" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-770" y="1115.5" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-11" value="&lt;div&gt;&lt;b&gt;shoe_products&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;brand:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sale_price: int&lt;/div&gt;&lt;div&gt;rating: double&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-770" y="1211.25" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-12" value="&lt;div&gt;&lt;b&gt;shoe_customers_keyed&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-770" y="1480.5" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-14" value="&lt;div&gt;&lt;b&gt;shoe_customers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;id: string&lt;/div&gt;&lt;div&gt;first_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;last_name:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;phone:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;street_address:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;zip_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;country_code:&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-770" y="1349" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.833;entryY=0.779;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kA2U2TCj-zdVKaMiICrd-10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-717.5" y="1327.25" as="sourcePoint"/>
+                        <mxPoint x="-547.5" y="1152.75" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-610" y="1250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kA2U2TCj-zdVKaMiICrd-18" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.917;entryY=0.779;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.786;exitY=0.279;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kA2U2TCj-zdVKaMiICrd-12" target="kA2U2TCj-zdVKaMiICrd-10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-620" y="1620" as="sourcePoint"/>
+                        <mxPoint x="-660" y="1180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-600" y="1260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="X0SxPta94rZw2bLqJzpC-1" value="Interval join&lt;div&gt;จับคู่เฉพาะ order ที่ถูกสร้างภายใน &lt;strong data-end=&quot;1133&quot; data-start=&quot;1094&quot;&gt;10 นาที &quot;ก่อน&quot; การแก้ไขข้อมูลลูกค้า&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong data-end=&quot;1133&quot; data-start=&quot;1094&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong data-end=&quot;1133&quot; data-start=&quot;1094&quot;&gt;หาก customer มีการ update ข้อมูล (เช่น เปลี่ยนอีเมล) และ Flink รับ record ใหม่นั้น &lt;strong data-end=&quot;1277&quot; data-start=&quot;1238&quot;&gt;ภายใน 10 นาทีหลังจากมี order เข้ามา&lt;/strong&gt;, Flink จะ JOIN ให้แสดงว่า order นั้น &lt;strong data-end=&quot;1356&quot; data-start=&quot;1315&quot;&gt;มีผลกับข้อมูลลูกค้าที่อาจจะถูกเปลี่ยน&lt;/strong&gt; (enrichment ภายหลัง)&lt;/strong&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1380" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="https://claude.ai/public/artifacts/9be8c82a-9efb-4718-b5d7-8ffb89c705ba" link="https://claude.ai/public/artifacts/9be8c82a-9efb-4718-b5d7-8ffb89c705ba" id="X0SxPta94rZw2bLqJzpC-2">
+                    <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                        <mxGeometry x="80" y="1480.5" width="420" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="jajSEqbNczDQtT4hFfj4-8" value="&lt;div&gt;&lt;b&gt;shoe_orders&lt;/b&gt;&lt;/div&gt;order_id: int&lt;div&gt;product_id: string&lt;/div&gt;&lt;div&gt;customer_id: string&lt;/div&gt;&lt;div&gt;ts: timestamp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-300" y="1730" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="jajSEqbNczDQtT4hFfj4-10" value="&lt;div&gt;&lt;b&gt;shoe_customers_keyed&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;customer_id: string primary key&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;first_name: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;last_name: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;email string;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-297.5" y="1840.5" width="177.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="rZw65LSWamrCjo8rIwxW-1" value="&lt;div&gt;&lt;b&gt;shoe_products_keyed&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;product_id: string primary key&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;brand: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;`model`: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;sale_price: int&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;rating: double&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-297.5" y="1950.5" width="167.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Faap3LqyK__mwfl4DJFJ-1" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.437;exitY=0.279;exitDx=0;exitDy=0;entryX=0.917;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="jajSEqbNczDQtT4hFfj4-10" target="jajSEqbNczDQtT4hFfj4-8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-40" y="2060" as="sourcePoint"/>
+                        <mxPoint x="-40" y="1730" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-40" y="1800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Faap3LqyK__mwfl4DJFJ-2" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.403;exitY=0.136;exitDx=0;exitDy=0;entryX=0.833;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="rZw65LSWamrCjo8rIwxW-1" target="jajSEqbNczDQtT4hFfj4-8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-210" y="1870" as="sourcePoint"/>
+                        <mxPoint x="-180" y="1790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-20" y="1790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Faap3LqyK__mwfl4DJFJ-3" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;คำนวนยอดซื้อสะสมของลูกค้าแต่ละคน แล้วจัด ระดับสมาชิก&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;ยอดซื้อรวม&lt;/span&gt;&lt;/th&gt;&lt;th&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;ระดับสมาชิก&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;gt; 80,000,000&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;GOLD&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;gt; 7,000,000&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;SILVER&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;gt; 600,000&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;BRONZE&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;น้อยกว่านั้น&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;CLIMBING&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="2440" width="345" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

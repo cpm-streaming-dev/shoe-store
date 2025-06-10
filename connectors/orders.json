@@ -1,0 +1,24 @@
+{
+  "config": {
+    "connector.class": "DatagenSource",
+    "name": "DatagenSourceConnector_orders",
+    "kafka.auth.mode": "KAFKA_API_KEY",
+    "kafka.api.key": "IOGCQZG44MAVLFPM",
+    "kafka.api.secret": "****************************************************************",
+    "kafka.topic": "shoe_orders",
+    "schema.context.name": "default",
+    "output.data.format": "AVRO",
+    "quickstart": "SHOE_ORDERS",
+    "max.interval": "1000",
+    "tasks.max": "1",
+    "value.converter.decimal.format": "BASE64",
+    "value.converter.replace.null.with.default": "true",
+    "value.converter.reference.subject.name.strategy": "DefaultReferenceSubjectNameStrategy",
+    "value.converter.schemas.enable": "false",
+    "errors.tolerance": "none",
+    "value.converter.value.subject.name.strategy": "TopicNameStrategy",
+    "key.converter.key.subject.name.strategy": "TopicNameStrategy",
+    "value.converter.ignore.default.for.nullables": "false",
+    "auto.restart.on.user.error": "true"
+  }
+}
